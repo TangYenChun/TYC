@@ -1,0 +1,112 @@
+body{
+    color: #4d4d4d;
+}
+
+.navbar_bg{
+    background-color: white;
+}
+
+.nav_item{
+    color: #4d4d4d;
+    padding-right: 2rem;
+}
+
+.navbar-nav{
+    padding-left: 270px;
+    
+}
+
+.header{
+    background-color: #FFF;
+    padding-bottom: 10rem;
+}
+
+.about_img{
+    padding-bottom: 1rem;
+}
+
+.about_content{
+    line-height: 30px;
+}
+
+.article{
+    font-family: "Microsoft JhengHei", Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.about_title{
+    font-weight: bold;
+}
+
+.projects_item{
+    width: 70%;
+    height: 207px;
+    border-radius: 2px;
+    margin: 40px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.project_img{
+    width: 100%;
+    height: auto;
+    transition: all 0.6s;
+}
+
+.projects_title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 207px;
+    text-align: center;
+    padding-top: 95px;
+    border-radius: 2px;
+    background: rgba(101, 101, 101, 0.6);
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: all 500ms ease-in-out;
+    opacity: 0;
+}
+
+.projects_item a:hover .projects_title{
+    opacity: 1;
+}
+
+.projects_item:hover .project_img{
+    transform: scale(1.2);
+}
+
+.footer{
+    background-color: #707070;
+    margin-top: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.holder{
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.on_top{
+    position: absolute;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    top: 0px;
+    left: 0px;
+}
+
+.on_top:hover{
+    opacity: 1;
+}
+
+.gototop{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    display:none;
+}
