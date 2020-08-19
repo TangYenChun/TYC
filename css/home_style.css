@@ -108,5 +108,9 @@ body{
     bottom: 20px;
     right: 30px;
     cursor: pointer;
-    display:none;
+    /*display:none;*/
+}
+
+.bottom-link{
+    color:#4d4d4d;
 }
